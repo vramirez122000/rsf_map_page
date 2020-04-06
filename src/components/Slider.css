@@ -1,0 +1,23 @@
+.session {
+    margin-bottom: 20px;
+    background-color: #8da0cb;
+}
+
+.slider_row {
+    height: 12px;
+    width: 70%;
+}
+
+h2#slider-label {
+    display: inline-block;
+    margin: 10px;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+#sliderbar{
+    position:absolute;
+    bottom: 30px;
+    width: 50%;
+    left: 25%;
+}
