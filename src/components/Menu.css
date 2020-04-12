@@ -1,0 +1,75 @@
+#menu_container {
+    position: absolute;
+    left: 140px;
+    top: 20px;
+    width: 250px;
+    background-color: #fff;
+}
+
+
+#city_title{
+    position: relative;
+    font-size: 25px;
+    color:#fc8d62;
+    padding: 3px;
+    margin-top:10px;
+    left: 7%;
+}
+
+#subtitle{
+    position: relative;
+    font-size: 10px;
+    color:#cf714c;
+    font-weight: bold;
+    left: 7%;
+    padding-left: 3px;
+}
+
+
+
+
+.dropbtn {
+  background-color: #fff;
+  color: #2a2a2a;
+  text-decoration: underline;
+  padding: 6px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  width:100px;
+
+    }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 5px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+ .dropdown-content a:hover {
+     background-color: #8da0cb}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    }
+
+.dropdown:hover .dropbtn {
+    background-color: #d3d3d3;
+    }
