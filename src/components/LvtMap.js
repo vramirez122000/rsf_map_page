@@ -4,6 +4,7 @@ import mapboxgl from 'mapbox-gl'
 import './LvtMap.css';
 import {Legend} from "./Legend";
 import {Slider} from "./Slider";
+import {Menu} from "./Menu";
 
 const ReactMap = ReactMapboxGL({
     accessToken: process.env.REACT_APP_MAPBOX_API_KEY
@@ -140,6 +141,7 @@ export class LvtMap extends Component {
                 onStyleLoad={this.initMap}
             >
                 <Legend colors={legendColors} labels={legendLabels}/>
+                <Menu/>
                 <Slider initialValue={increments[INITIAL_SLIDER_POSITION_INDEX]} onSliderChange={this.handleSliderChange}/>
                 
                 
@@ -153,8 +155,8 @@ export class LvtMap extends Component {
 
         this.map.addSource('mv_philadelphia_zcta_percentage', {
             'type': 'geojson',
-            'data': 'https://rsf20200405.s3.us-east-2.amazonaws.com/mv_philadelphia_zcta_percentage.geojson'
-            //'data/mv_philadelphia_zcta_percentage.geojson'
+            'data': 'https://rsf-2020-04-11.s3.us-east-2.amazonaws.com/mv_philadelphia_zcta_percentage.geojson'
+
         });
 
         for (let i = 0; i < dataFields.length; i++) {
