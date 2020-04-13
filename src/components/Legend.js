@@ -74,30 +74,31 @@ export class Legend extends Component {
                  
                 </div>
             </div>
+            
             <div id = 'parcel_legend'> 
                 <div class='row'>
                     <div id='residential_dot'></div>
-                    <p>Residential</p>
+                    <p class='parcel_text'>Residential</p>
                 </div>
             
                 <div class='row'>    
                     <div id='commercial_dot'></div>
-                    <p>Commercial</p>
+                    <p class='parcel_text'>Commercial</p>
                     </div>
             
                 <div class='row'>
                     <div id='industrial_dot'></div>
-                    <p>Industrial</p>
+                    <p class = 'parcel_text'>Industrial</p>
                 </div>
             
                 <div class='row'>
                     <div id='vacant_dot'></div>
-                    <p>Vacant Land</p>
+                    <p class='parcel_text'>Vacant Land</p>
                     </div>
             
                 <div class='row'>
                     <div id='exempt_dot'></div>
-                    <p>Exempt</p>
+                    <p class='parcel_text'>Exempt</p>
                     </div>
             
                 </div>

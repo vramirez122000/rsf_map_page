@@ -20,15 +20,7 @@
     width: 100px;
 }
 
-#parcel_legend {
-    position: absolute;
-    padding: 0px;
-    top:270px;
-    line-height: 18px;
-    height: 60px;
-    margin-bottom: 0px;
-    width: 100px;
-}
+
 
 
 /*span {
@@ -46,7 +38,7 @@
   padding: 10px;
   top: 120px;
   left: 20px;
-  bottom:20px;
+  height: 400px;
   
   background-color: #fff;
   opacity: 1;
@@ -75,9 +67,11 @@
 
 .legend_col {
   height: 100%;
-  width: 60%;
+  width: 50%;
   top: 0px;
   float:right;
+   margin-right: 5px;
+  margin-left:0px
 
 }
 
@@ -90,13 +84,16 @@
 }
 
 p {
-  font-size: 8px;
+  font-size: 9px;
   margin: 1px;
-  text-align: center;
+  text-align: right;
 }
 
+
+
+
 h4{
-    font-size: 10px;
+    font-size: 11px;
 }
 
 .title_container{
@@ -106,16 +103,32 @@ h4{
     width:80px;
     float: left;  
 }
-    
+   
+
 #parcel_title{
     position:absolute;
-    top: 230px;
+    top: 245px;
 }
+#parcel_legend {
+    position: absolute;  
+    top:285px;
+    line-height: 18px;
+    height: 80px;
+    margin-bottom: 0px;
+    width: 100px;
+}
+
+.parcel_text{
+    font-size:12px;
+    
+    
+}
+
 
 #residential_dot {
   position: absolute;
-  height: 10px;
-  width: 10px;
+  height: 12px;
+  width: 12px;
   top: 6px;
   background-color: #fe9929;
   border-radius: 50%;
@@ -124,8 +137,8 @@ h4{
 }
 #commercial_dot {
   position: absolute;
-  height: 10px;
-  width: 10px;
+  height: 12px;
+  width: 12px;
   top: 20px;
   background-color: #8da0cb;
   border-radius: 50%;
@@ -133,8 +146,8 @@ h4{
 }
 #industrial_dot {
   position: absolute;
-  height: 10px;
-  width: 10px;
+  height: 12px;
+  width: 12px;
   top: 34px;
   background-color: #66c2a5;
   border-radius: 50%;
@@ -142,8 +155,8 @@ h4{
 }
 #vacant_dot {
   position: absolute;
-  height: 10px;
-  width: 10px;
+  height: 12px;
+  width: 12px;
   top: 50px;
   background-color: #d4b78a;
   border-radius: 50%;
@@ -151,8 +164,8 @@ h4{
 }
 #exempt_dot {
   position: absolute;
-  height: 5px;
-  width: 5px;
+  height: 7px;
+  width: 7px;
   top: 67px;
   left: 4px;
   background-color: #000;
@@ -178,7 +191,7 @@ h4{
                     #810f7c
                     );
   position: absolute;
-  top: 80px;
+  top: 83px;
   padding: 1px;
   height: 150px;
   margin-bottom: 40px;
@@ -199,16 +212,16 @@ h4{
 
 #median_tax_tooltip{
     position: absolute;
-    top: 7px;
-    left: 2px;
+    top: 23px;
+    left: 9px;
     height: 12px;
     width: 12px;
 }
 
 #parcel_tooltip{
     position: absolute;
-    top: 3px;
-    left: 2px;
+    top: 4px;
+    left: 9px;
     height:12px;
     width:12px;
 }
@@ -219,7 +232,7 @@ h4{
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 300px;
-  background-color: #7180a3;
+  background-color: #8da0cb;
   /*background-color:#555;*/
   color: #fff;
   text-align:left;

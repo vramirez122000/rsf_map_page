@@ -1,11 +1,14 @@
 .session {
     margin-bottom: 20px;
-    background-color: #7180a3;
+    left: 25%;
+    right: 25%;
+    background-color: #8da0cb;
 }
 
 .slider_row {
     height: 12px;
-    width: 70%;
+    width: 95%;
+    margin: 5px;
 }
 
 h2#slider-label {
@@ -17,7 +20,7 @@ h2#slider-label {
 
 #sliderbar{
     position:absolute;
-    bottom: 30px;
-    width: 50%;
+    bottom: 0%;
+    right: 25%;
     left: 25%;
 }
